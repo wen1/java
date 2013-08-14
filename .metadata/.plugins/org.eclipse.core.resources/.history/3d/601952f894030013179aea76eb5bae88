@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class _1_1Test1 {
+
+	@Test
+	public void testIsUnique() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsUnique2() {
+		fail("Not yet implemented");
+	}
+
+}

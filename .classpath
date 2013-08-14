@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ch1/src"/>
+	<classpathentry kind="src" path="ch5/src"/>
+	<classpathentry kind="src" path="ch6/src"/>
+	<classpathentry kind="src" path="hello world"/>
+	<classpathentry kind="src" path="printAllCharacterUnicode/src"/>
+	<classpathentry kind="src" path="ps1/src"/>
+	<classpathentry kind="src" path="ps2"/>
+	<classpathentry kind="src" path="ps4/src"/>
+	<classpathentry kind="src" path="ps5/src"/>
+	<classpathentry kind="src" path="ps6/src"/>
+	<classpathentry kind="src" path="stringPractice/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="stringPractice/bin"/>
+</classpath>

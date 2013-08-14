@@ -1,0 +1,42 @@
+
+public class LinkList {
+	public static class Node{
+		int data;
+		Node next;
+		
+		Node(int d){
+			this.data = d;
+			this.next = null;
+		}
+	}
+	
+	Node head;
+	Node tail;
+	int length;
+
+	LinkList(){
+		this.head = null;
+		this.tail = null;
+		this.length = 0;
+	}
+	public void addToTail(int d){
+		if (head == null) {
+			head = new Node(d);
+			tail = head;
+		} else {
+			tail.next = new Node(d);
+			tail = tail.next;
+		}
+		length++;
+	}
+	
+	public Object getAtIndex(int i){
+		if (i>= this.length) return null;
+		Node p = this.head;
+		while(p!=null && i!=0){
+			p = p.next;
+			i--;
+		}
+		return p.data;
+	}
+}

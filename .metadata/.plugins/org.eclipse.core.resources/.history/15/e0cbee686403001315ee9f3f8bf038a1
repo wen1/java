@@ -1,0 +1,16 @@
+
+import org.testng.annotations.*;
+
+
+public class ch1TestTest {
+
+  @Test
+  public void isUnique() {
+	  assertEquals("well this is simple test\n", true ,_1_1.isUnique2("abcde"));
+  }
+
+  @Test
+  public void isUnique2() {
+    throw new RuntimeException("Test not implemented");
+  }
+}

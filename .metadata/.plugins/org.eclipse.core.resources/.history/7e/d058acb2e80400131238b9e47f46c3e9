@@ -1,0 +1,23 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class LinkListTest {
+
+	@Test
+	public void testAddToTail() {
+		LinkList lst = new LinkList();
+		int input[] = {1,2,3,4,5};
+		for (int i = 0; i < 5; i++){
+			lst.addToTail(input[i]);
+		}
+		LinkList.Node p = lst.head;
+		while (p!=null){
+			System.out.println(p.data);
+			p = p.next;
+		}
+		assertEquals(5,lst.length);
+	}
+
+}

@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+
+public class ps2_1Test {
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	@Test
+	public void testRemoveDuplicates() {
+		fail("Not yet implemented");
+	}
+
+}

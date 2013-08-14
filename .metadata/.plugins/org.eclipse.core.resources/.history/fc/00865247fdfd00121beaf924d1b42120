@@ -1,0 +1,15 @@
+import java.util.Map;
+import java.util.HashMap;
+public class Hash {
+	public static void main(String[] args){
+		Map<String,Integer> students = new HashMap<String,Integer>();
+		
+		System.out.println(students.hashCode());
+		students.put("alan", 3);
+		students.put("bob", 1);
+		students.put("cathe", 2);
+		
+		System.out.println("Unorder Map:" + students);
+	}
+	
+}

@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class LinkListTest {
+
+	@Test
+	public void testAddToTail() {
+		LinkList lst = new LinkList();
+		assertEquals(null,lst.head);
+		lst.addToTail(1);
+		lst.addToTail(2);
+		assertEquals(1, lst.head.data);
+		assertEquals(2, lst.head.next.data);
+	}
+
+}

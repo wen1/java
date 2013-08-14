@@ -1,0 +1,37 @@
+{
+  "\\System\\Library\\Java\\JavaVirtualMachines\\1.6.0.jdk\\Contents\\Classes\\classes.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "\\System\\Library\\Java\\JavaVirtualMachines\\1.6.0.jdk\\Contents\\Classes\\classes.jar",
+    "status": "RESOLVED"
+  },
+  "\\Users\\Yiwen\\Dropbox\\JAVA\\workspace\\ps4\\src": {
+    "location": "\\Users\\Yiwen\\Dropbox\\JAVA\\workspace\\ps4\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/Yiwen/Dropbox/JAVA/workspace/ps4/src\u0027. Skipped."
+  },
+  "\\Users\\Yiwen\\Dropbox\\JAVA\\workspace\\ps5\\src": {
+    "location": "\\Users\\Yiwen\\Dropbox\\JAVA\\workspace\\ps5\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/Yiwen/Dropbox/JAVA/workspace/ps5/src\u0027. Skipped."
+  },
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED"
+  },
+  "C:\\Users\\wen.yi1\\Dropbox\\JAVA\\workspace\\ch1\\src": {
+    "location": "C:\\Users\\wen.yi1\\Dropbox\\JAVA\\workspace\\ch1\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027C:\\Users\\wen.yi1\\Dropbox\\JAVA\\workspace\\ch1\\src\u0027. Skipped."
+  },
+  "/Users/Yiwen/Dropbox/JAVA/workspace/ch1/src": {
+    "location": "/Users/Yiwen/Dropbox/JAVA/workspace/ch1/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/Yiwen/Dropbox/JAVA/workspace/ch1/src\u0027. Skipped."
+  },
+  "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar",
+    "status": "RESOLVED"
+  }
+}

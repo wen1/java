@@ -1,0 +1,23 @@
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+
+public class LinkListTest {
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		
+	}
+
+	@Test
+	public void testAddToTail() {
+		LinkList lst = new LinkList();
+		lst.addToTail(1);
+		lst.addToTail(2);
+		assertEquals(1, lst.head.data);
+		assertEquals(2, lst.head.next.data);
+	}
+
+}
