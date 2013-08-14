@@ -29,7 +29,7 @@ public class LinkList {
 		}
 		length++;
 	}
-	
+	// only for test purpose
 	public Object getAtIndex(int i){
 		if (i>= this.length) return null;
 		Node p = this.head;
