@@ -6,7 +6,7 @@ public class Node {
 	public Node(int d) {
 		data = d;
 	}
-	public Node(Node n){}
+	public Node(){}
 	
 	public void addToTail(int d){
 		Node n = this;

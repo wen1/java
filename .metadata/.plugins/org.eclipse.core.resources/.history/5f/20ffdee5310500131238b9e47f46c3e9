@@ -6,7 +6,7 @@ public class Node {
 	public Node(int d) {
 		data = d;
 	}
-	public Node(Node n){}
+	public Node(){}
 	
 	public void addToTail(int d){
 		Node n = this;
@@ -24,7 +24,7 @@ public class Node {
 		return p.data;
 	}
 	
-	public static void foo(Node lst){
+	public static void foo(Object lst){
 		if (lst == null){
 			System.out.println("the lst is empty");
 		}else {

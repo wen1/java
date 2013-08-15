@@ -20,8 +20,6 @@ public class NodeTest {
 	@Test
 	public void randomTest() {
 		Node head = null;
-		Node p = new Node(null);
-		System.out.println(p.data);
 		Node.foo(head);
 		Node.foo(null);
 	}
