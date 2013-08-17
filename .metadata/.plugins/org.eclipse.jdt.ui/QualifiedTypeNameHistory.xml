@@ -8,4 +8,7 @@
 <fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="LinkList.Node"/>
+<fullyQualifiedTypeName name="DoubleLinkList"/>
+<fullyQualifiedTypeName name="DoubleLinkList.Node"/>
 </qualifiedTypeNameHistroy>

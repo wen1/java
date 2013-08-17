@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testrun name="DoubleLinkListTest" project="ch2" tests="4" started="4" failures="0" errors="0" ignored="0">
-  <testsuite name="DoubleLinkListTest" time="0.0">
-    <testcase name="testAddToHead" classname="DoubleLinkListTest" time="0.001"/>
-    <testcase name="testAddToTail" classname="DoubleLinkListTest" time="0.0"/>
-    <testcase name="testInsert" classname="DoubleLinkListTest" time="0.0"/>
-    <testcase name="pointTest" classname="DoubleLinkListTest" time="0.0"/>
-  </testsuite>
-</testrun>

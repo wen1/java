@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testrun name="ps2_1Test" project="ch2" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="ps2_1Test" time="0.0">
-    <testcase name="testRemoveDuplicates" classname="ps2_1Test" time="0.0"/>
-    <testcase name="testRemoveDuplicates2" classname="ps2_1Test" time="0.0"/>
-  </testsuite>
-</testrun>
