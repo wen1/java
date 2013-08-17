@@ -6,7 +6,7 @@ How would you solve this problem if a temporary buffer is not allowed?
 
 /*
 GIVEN: a LinkList lst
-RETURN: a LinkList without duplicates
+EFFECT: a LinkList without duplicates
 EXAMPLES:
 lst: [1] -> [2] -> [1]
 removeDuplicates(lst);

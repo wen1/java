@@ -6227,3 +6227,68 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2013-08-16 16:01:08.899
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 4 0 2013-08-17 12:09:21.512
+!MESSAGE An exception occurred during push on URI https://github.com/wen1/java.git: https://github.com/wen1/java.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/wen1/java.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:160)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:221)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:147)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:209)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/wen1/java.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStatusReport(BasePackPushConnection.java:315)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:200)
+	at org.eclipse.jgit.transport.TransportHttp$SmartHttpPushConnection.doPush(TransportHttp.java:775)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:152)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:165)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1167)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:156)
+	... 4 more
+
+!ENTRY org.eclipse.egit.core 4 0 2013-08-17 12:09:31.733
+!MESSAGE An exception occurred during push on URI https://github.com/wen1/java.git: https://github.com/wen1/java.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/wen1/java.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:160)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:221)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:147)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:209)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/wen1/java.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStatusReport(BasePackPushConnection.java:315)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:200)
+	at org.eclipse.jgit.transport.TransportHttp$SmartHttpPushConnection.doPush(TransportHttp.java:775)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:152)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:165)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1167)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:156)
+	... 4 more
+
+!ENTRY org.eclipse.egit.core 4 0 2013-08-17 12:11:10.693
+!MESSAGE An exception occurred during push on URI https://github.com/wen1/java.git: https://github.com/wen1/java.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/wen1/java.git: error occurred during unpacking on the remote end: index-pack abnormal exit
+	at org.eclipse.jgit.transport.BasePackPushConnection.readStatusReport(BasePackPushConnection.java:315)
+	at org.eclipse.jgit.transport.BasePackPushConnection.doPush(BasePackPushConnection.java:200)
+	at org.eclipse.jgit.transport.TransportHttp$SmartHttpPushConnection.doPush(TransportHttp.java:775)
+	at org.eclipse.jgit.transport.BasePackPushConnection.push(BasePackPushConnection.java:152)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:165)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1167)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:190)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.egit.ui 4 0 2013-08-17 12:11:10.763
+!MESSAGE Can't connect to any repository: https://github.com/wen1/java.git (https://github.com/wen1/java.git: error occurred during unpacking on the remote end: index-pack abnormal exit)
+!SESSION 2013-08-17 12:16:23.672 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.6.0_51
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/Yiwen/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/Yiwen/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-08-17 12:16:35.483
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

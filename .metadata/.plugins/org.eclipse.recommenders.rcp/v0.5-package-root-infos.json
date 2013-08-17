@@ -143,6 +143,32 @@
     "javaRuntime": false
   },
   {
+    "symbolicName": "org.hamcrest.core",
+    "version": {
+      "major": 1,
+      "minor": 3,
+      "micro": 0,
+      "qualifier": "v201303031735"
+    },
+    "jarFileFingerprint": "5ed9fe32ab1d2b18bec7cac0a044090100f327ba",
+    "jarFileModificationDate": "2013-06-13T23:23:24-04:00",
+    "location": "/Users/Yiwen/Documents/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "3a1fb5c4f887ebe190890089d36c29e9c9040430",
+    "jarFileModificationDate": "2013-06-20T15:07:03-04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar",
+    "javaRuntime": true
+  },
+  {
     "symbolicName": "jre",
     "version": {
       "major": 1,
@@ -176,48 +202,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "3a1fb5c4f887ebe190890089d36c29e9c9040430",
-    "jarFileModificationDate": "2013-06-20T15:07:03-04:00",
-    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar",
-    "javaRuntime": true
-  },
-  {
-    "symbolicName": "org.hamcrest.core",
-    "version": {
-      "major": 1,
-      "minor": 3,
-      "micro": 0,
-      "qualifier": "v201303031735"
-    },
-    "jarFileFingerprint": "5ed9fe32ab1d2b18bec7cac0a044090100f327ba",
-    "jarFileModificationDate": "2013-06-13T23:23:24-04:00",
-    "location": "/Users/Yiwen/Documents/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar",
-    "javaRuntime": false
-  },
-  {
-    "symbolicName": "jre",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
-    },
     "jarFileFingerprint": "096c07686702497c46affdf25d6559ac10235884",
     "jarFileModificationDate": "2011-07-14T16:44:11-04:00",
     "location": "/System/Library/Java/Extensions/jai_core.jar",
-    "javaRuntime": true
-  },
-  {
-    "symbolicName": "jre",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "80a1b59c9a46cd5cd3869637f77eb5261937fd35",
-    "jarFileModificationDate": "2011-07-14T15:43:29-04:00",
-    "location": "/System/Library/Java/Extensions/j3dutils.jar",
     "javaRuntime": true
   },
   {
@@ -241,9 +228,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "0a96b7d4126b3a5e4ac1bfb648ce0a059e03f7de",
-    "jarFileModificationDate": "2013-06-25T21:35:35-04:00",
-    "location": "/System/Library/Java/Extensions/dns_sd.jar",
+    "jarFileFingerprint": "80a1b59c9a46cd5cd3869637f77eb5261937fd35",
+    "jarFileModificationDate": "2011-07-14T15:43:29-04:00",
+    "location": "/System/Library/Java/Extensions/j3dutils.jar",
     "javaRuntime": true
   },
   {
@@ -254,22 +241,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "9ca8d787aee281343cffe1507d3b5e7f808b8d12",
-    "jarFileModificationDate": "2013-06-20T15:00:02-04:00",
-    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar",
-    "javaRuntime": true
-  },
-  {
-    "symbolicName": "jre",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "70e3f9e76e3d5884415516c0cee0855295bcb571",
-    "jarFileModificationDate": "2013-06-20T14:49:47-04:00",
-    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar",
+    "jarFileFingerprint": "3d8a1a2a25b21ebd6b7ab99613e91c57e46bda9c",
+    "jarFileModificationDate": "2013-06-25T21:35:33-04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar",
     "javaRuntime": true
   },
   {
@@ -293,9 +267,35 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "3d8a1a2a25b21ebd6b7ab99613e91c57e46bda9c",
-    "jarFileModificationDate": "2013-06-25T21:35:33-04:00",
-    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/dnsns.jar",
+    "jarFileFingerprint": "70e3f9e76e3d5884415516c0cee0855295bcb571",
+    "jarFileModificationDate": "2013-06-20T14:49:47-04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "9ca8d787aee281343cffe1507d3b5e7f808b8d12",
+    "jarFileModificationDate": "2013-06-20T15:00:02-04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "0a96b7d4126b3a5e4ac1bfb648ce0a059e03f7de",
+    "jarFileModificationDate": "2013-06-25T21:35:35-04:00",
+    "location": "/System/Library/Java/Extensions/dns_sd.jar",
     "javaRuntime": true
   }
 ]
