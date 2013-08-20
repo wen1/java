@@ -11,4 +11,6 @@
 <fullyQualifiedTypeName name="LinkList.Node"/>
 <fullyQualifiedTypeName name="DoubleLinkList"/>
 <fullyQualifiedTypeName name="DoubleLinkList.Node"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
 </qualifiedTypeNameHistroy>
