@@ -39,7 +39,7 @@ public class Stack implements StackInterface {
 	private boolean isFull(){
 		return (top+1) == cap;
 	}
-	// for tests
+	
 	public Object get(int index){
 		if (index >= cap) return null;
 		return objects[index];

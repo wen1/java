@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="StackTest" project="ch3" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="StackTest" time="0.001">
+    <testcase name="popTest" classname="StackTest" time="0.001"/>
+    <testcase name="isEmptyTest" classname="StackTest" time="0.0"/>
+    <testcase name="incremenStacksSizeTest" classname="StackTest" time="0.0"/>
+    <testcase name="peekTest" classname="StackTest" time="0.0"/>
+    <testcase name="pushTest" classname="StackTest" time="0.0"/>
+  </testsuite>
+</testrun>

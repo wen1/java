@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testrun name="LinkedListQueueTest" project="ch3" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="LinkedListQueueTest" time="0.001">
+    <testcase name="testEnqueue" classname="LinkedListQueueTest" time="0.0"/>
+    <testcase name="testGetFront" classname="LinkedListQueueTest" time="0.0"/>
+    <testcase name="testClear" classname="LinkedListQueueTest" time="0.0"/>
+    <testcase name="testDequeue" classname="LinkedListQueueTest" time="0.0"/>
+    <testcase name="testIsEmpty" classname="LinkedListQueueTest" time="0.001"/>
+  </testsuite>
+</testrun>
