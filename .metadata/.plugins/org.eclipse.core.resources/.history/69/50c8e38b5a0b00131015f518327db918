@@ -1,0 +1,8 @@
+
+public class Hanoi {
+
+	public Hanoi() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

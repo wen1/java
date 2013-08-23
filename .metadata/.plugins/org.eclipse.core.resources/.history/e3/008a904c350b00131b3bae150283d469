@@ -1,0 +1,8 @@
+
+public class sss extends Stack {
+
+	public sss() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

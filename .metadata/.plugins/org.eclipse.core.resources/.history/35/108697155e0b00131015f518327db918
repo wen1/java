@@ -1,0 +1,30 @@
+import static org.junit.Assert.*;
+
+import java.util.Vector;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class HanoiTest {
+//	
+//	@Before
+//	public void setUp() throws Exception {
+//		
+//	}
+//
+//	@After
+//	public void tearDown() throws Exception {
+//	}
+
+	@Test
+	public void test() {
+		Hanoi hanoi = new Hanoi();
+		Vector<Hanoi.Move> result = hanoi.getSolution();
+		for (int i=0; i<result.size(); i++){
+			System.out.println(result.get(i));
+		}
+	}
+
+}

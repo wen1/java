@@ -1,0 +1,7 @@
+
+public interface StackInterface {
+	public Object pop();
+	public void push(Object item);
+	public Object peek();
+	public boolean isEmpty();
+}

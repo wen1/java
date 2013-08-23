@@ -150,6 +150,19 @@
       "micro": 0,
       "qualifier": ""
     },
+    "jarFileFingerprint": "f0427e7b6097a1502a5752d1c527e8bfb1724707",
+    "jarFileModificationDate": "2013-06-22T09:24:35-04:00",
+    "location": "/System/Library/Java/Extensions/QTJava.zip",
+    "javaRuntime": true
+  },
+  {
+    "symbolicName": "jre",
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "micro": 0,
+      "qualifier": ""
+    },
     "jarFileFingerprint": "34699721120eede31b7fe5140226deedc0b2aab9",
     "jarFileModificationDate": "2011-07-14T15:43:29-04:00",
     "location": "/System/Library/Java/Extensions/j3daudio.jar",
@@ -163,9 +176,9 @@
       "micro": 0,
       "qualifier": ""
     },
-    "jarFileFingerprint": "f0427e7b6097a1502a5752d1c527e8bfb1724707",
-    "jarFileModificationDate": "2013-06-22T09:24:35-04:00",
-    "location": "/System/Library/Java/Extensions/QTJava.zip",
+    "jarFileFingerprint": "3a1fb5c4f887ebe190890089d36c29e9c9040430",
+    "jarFileModificationDate": "2013-06-20T15:07:03-04:00",
+    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar",
     "javaRuntime": true
   },
   {
@@ -180,19 +193,6 @@
     "jarFileModificationDate": "2013-06-13T23:23:24-04:00",
     "location": "/Users/Yiwen/Documents/eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar",
     "javaRuntime": false
-  },
-  {
-    "symbolicName": "jre",
-    "version": {
-      "major": 1,
-      "minor": 0,
-      "micro": 0,
-      "qualifier": ""
-    },
-    "jarFileFingerprint": "3a1fb5c4f887ebe190890089d36c29e9c9040430",
-    "jarFileModificationDate": "2013-06-20T15:07:03-04:00",
-    "location": "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext/apple_provider.jar",
-    "javaRuntime": true
   },
   {
     "symbolicName": "jre",

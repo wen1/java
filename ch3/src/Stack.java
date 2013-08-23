@@ -1,8 +1,13 @@
+
+/*
+ * implement a stack using array
+ */
+
 public class Stack implements StackInterface {
 	private static final int DEFAULT_SIZE = 10;
-	private int top;
-	private int cap;
-	private Object[] objects;
+	protected int top;
+	protected int cap;
+	protected Object[] objects;
 
 	Stack(){
 		top = -1;
@@ -13,6 +18,7 @@ public class Stack implements StackInterface {
 	public Object pop(){
 		if (isEmpty()) return null;
 		Object result = objects[top];
+		objects[top] = null;
 		top--;
 		return result;
 	}

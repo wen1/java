@@ -9,12 +9,13 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="LinkedListStack" key="selection"/>
+		<item value="Queue" key="selection"/>
 		<list key="findhistory">
+			<item value="Queue"/>
 			<item value="Stack"/>
 			<item value="Linklist"/>
 			<item value="draw"/>
@@ -22,6 +23,8 @@
 			<item value="indexOfBooks"/>
 		</list>
 		<list key="replacehistory">
+			<item value="MyQueue"/>
+			<item value="LinkedListQueue"/>
 			<item value="LinkedListStack"/>
 			<item value="LinkList"/>
 			<item value="numOfBooks"/>

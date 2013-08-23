@@ -1,0 +1,35 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class Stack2Test {
+
+	@Test
+	public void testPop() {
+		
+	}
+
+	@Test
+	public void testPush() {
+		
+	}
+
+	@Test
+	public void testMin() {
+		Stack2 st = new Stack2();
+		int[] input = {4,5,2,1,3};
+		int[] output = {1,1,2,4,4};
+		for (int i=0; i<input.length; i++){
+			st.push(input[i]);
+		}
+		for(int i=0; i<output.length; i++){
+			System.out.println("i=" + i+"\t"
+		+ "minStack[top]="+((Integer)st.min()).intValue());
+			
+			assertEquals(output[i], ((Integer)st.min()).intValue());
+			st.pop();
+		}
+	}
+
+}
