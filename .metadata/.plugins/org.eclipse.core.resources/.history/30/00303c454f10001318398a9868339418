@@ -1,0 +1,10 @@
+
+public class TreeNode {
+	public int data;
+	public TreeNode left, right;
+	TreeNode(int _data) {
+		data = _data;
+		left = null;
+		right = null;
+	}
+}

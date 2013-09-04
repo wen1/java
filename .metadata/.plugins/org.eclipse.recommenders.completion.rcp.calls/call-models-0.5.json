@@ -43,5 +43,10 @@
     "location": "/Users/Yiwen/Dropbox/JAVA/workspace/ch3/src",
     "status": "UNRESOLVED",
     "error": "No class path info available for \u0027/Users/Yiwen/Dropbox/JAVA/workspace/ch3/src\u0027. Skipped."
+  },
+  "/Users/Yiwen/Dropbox/JAVA/workspace/ch4/src": {
+    "location": "/Users/Yiwen/Dropbox/JAVA/workspace/ch4/src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/Users/Yiwen/Dropbox/JAVA/workspace/ch4/src\u0027. Skipped."
   }
 }

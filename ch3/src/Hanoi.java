@@ -44,7 +44,9 @@ public class Hanoi {
 	}
 
 	private void move(int num, int from, int to){
-		if(num == 1) {
+		if(num < 1) {
+			System.out.println("error input");
+		}else if(num == 1) {
 			Object disk = towers[from].pop();
 			towers[to].push(disk);
 			int diskNum = ((Integer)disk).intValue();

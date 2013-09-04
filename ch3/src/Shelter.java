@@ -11,7 +11,7 @@ import java.util.LinkedList;
  *  LinkedList data structure.
  */
 public class Shelter {
-	public static int num = 0;
+	// inner class
 	public static class Dog{
 		String name;
 		public int id;
@@ -27,13 +27,17 @@ public class Shelter {
 			name = _name;
 		}
 	}
+	//field
 	LinkedList<Dog> dogs;
 	LinkedList<Cat> cats;
+	public static int num = 0;
 	
+	// interface
 	public Shelter() {
 		dogs = new LinkedList<Dog>();
 		cats = new LinkedList<Cat>();
 	}
+	
 	void enqueue(Object animal){
 		if (animal.getClass() == Dog.class){
 			Dog d = (Dog)animal;

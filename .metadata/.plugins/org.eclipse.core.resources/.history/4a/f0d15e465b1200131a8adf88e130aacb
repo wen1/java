@@ -1,0 +1,36 @@
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class BSTTest {
+	BST bst;
+	@Before
+	public void setUp(){
+		bst = new BST();
+		int[] array = {4,1,6,0,3,5,9};
+		for (int i = 0; i<array.length; i++){
+			bst.insert(array[i]);
+		}
+	}
+	@After
+	public void clean(){
+		bst = null;
+	}
+	@Test
+	public void testInOrder() {
+		String inOrderTraversal = "0134569";
+		String result = bst.inOrder();
+		assertEquals(inOrderTraversal,result);
+		System.out.println(result);
+	}
+	
+	@Test
+	public void testDelete(){
+		bst.delete(5);
+		String expected = "410359";
+		assertEquals(expected, bst.preOrder());
+	}
+}

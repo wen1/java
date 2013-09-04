@@ -52,6 +52,9 @@ public class Stack1 extends Stack {
 
 	public static void clear(){
 		numOfStack = 0;
+		for (int i=0; i<ARRAY.length; i++){
+			ARRAY[i] = null;
+		}
 	}
 
 	//for tests

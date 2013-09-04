@@ -1,9 +1,0 @@
-/* 3.1  Describe how you could use a single array to implement 
- * three stacks.
- */
-import StackInterface;
-
-class Stack1 implements StackInterface {
-	private static final Object[] array = new Object[30];
- 
-}

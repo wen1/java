@@ -6,7 +6,9 @@ import org.junit.Test;
 
 
 public class Stack1Test {
+	private final int a = 0;
 	private Stack1[] stacks;
+
 	@Before
 	public void setUp(){
 		stacks = new Stack1[3]; // this new just create an array
