@@ -33,4 +33,11 @@ public class BSTTest {
 		String expected = "410365";
 		assertEquals(expected, bst.preOrder());
 	}
+	@Test
+	public void testDelete(){
+		bst.delete(6);
+		String expected = "410365";
+		assertEquals(expected, bst.preOrder());
+	}
+	
 }
