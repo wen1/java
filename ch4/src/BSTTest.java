@@ -33,4 +33,8 @@ public class BSTTest {
 		String expected = "410365";
 		assertEquals(expected, bst.preOrder());
 	}
+	
+	public void testABC(){
+		
+	}
 }
