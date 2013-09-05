@@ -35,6 +35,6 @@ public class BSTTest {
 	}
 	
 	public void testABC(){
-		
+		system.out.println("aaa");
 	}
 }
