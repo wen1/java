@@ -1,0 +1,29 @@
+import java.util.Vector;
+
+public class Graph {
+	public class Node{
+		int data;
+		Vector<Node> adjacents;
+		Node(int _data){
+			data = _data;
+			adjacents = new Vector<Node>();
+		}
+	}
+	
+	Vector<Node> nodes;
+	
+	Graph(){
+		nodes = new Vector<Node>();
+	}
+	
+	public Vector<Node> getNodes(){
+		return nodes;
+	}
+	
+	public void insertNodes(Vector<Node> _nodes){
+		nodes = _nodes;
+	}
+	
+	
+	
+}

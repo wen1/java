@@ -1,6 +1,6 @@
 
 public class BST {
-	public class Node{
+	public static class Node{
 		public int data;
 		public Node left,right;
 		public Node(int _data){

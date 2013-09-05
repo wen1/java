@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class GraphTest {
+
+	@Test
+	public void testGetNodes() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testInsertNode() {
+		fail("Not yet implemented");
+	}
+
+}
