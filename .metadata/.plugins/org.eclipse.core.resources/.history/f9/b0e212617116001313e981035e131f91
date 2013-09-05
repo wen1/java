@@ -42,12 +42,6 @@ public class Graph {
 		nodes.add(_node);
 	}
 	
-	// 4.2
-	public boolean isConnected(Node start, Node end){
-		return false;
-	}
-
-
 	
 	
 }
