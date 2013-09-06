@@ -146,7 +146,7 @@ public class BT {
 			len1++;
 		}
 		n = n2;
-		while (n.parent!=null){
+		while (n!=null){
 			n = n.parent;
 			len2++;
 		}
