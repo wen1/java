@@ -1,4 +1,155 @@
+import java.util.Stack;
+import java.util.Vector;
+
 
 public class BT {
+	public static class Node{
+		int data;
+		Node left, right, parent;
+		Node(int _data){
+			data = _data;
+			left = right = null;
+			parent = this;
+		}
+		public String toString(){
+			return data+"";
+		}
+	}
+	Node root;
 	
+	BT(){
+		root = null;
+	}
+	
+	BT(Node _root){
+		root = _root;
+	}
+	
+	/*
+	 * add node
+	 */
+	public void addToLeft(Node parent, Node toBeAdded){
+		root = addToLeft(root,parent,toBeAdded);
+	}
+	private Node addToLeft(Node subRoot, Node parent, Node toBeAdded){
+		if (subRoot == null) {
+			;
+		} else if (subRoot == parent) {
+			subRoot.left = toBeAdded;
+		} else {
+			subRoot.left = addToLeft(subRoot.left, parent,toBeAdded);
+			subRoot.right = addToLeft(subRoot.right,parent,toBeAdded);
+		}
+		return subRoot;
+	}
+	
+	public void addToRight(Node parent, Node toBeAdded){
+		root = addToRight(root,parent,toBeAdded);
+	}
+	private Node addToRight(Node subRoot, Node parent, Node toBeAdded){
+		if (subRoot == null) {
+			;
+		} else if (subRoot == parent) {
+			subRoot.right = toBeAdded;
+		} else {
+			subRoot.left = addToRight(subRoot.left, parent,toBeAdded);
+			subRoot.right = addToRight(subRoot.right,parent,toBeAdded);
+		}
+		return subRoot;
+	}
+	/*
+	 * end of add node
+	 */
+	
+	public String inOrder(){
+		return inOrder(root);
+	}
+	private String inOrder(Node root){
+		if (root == null) {
+			return "";
+		}else {
+			return inOrder(root.left) + root.data + inOrder(root.right);
+		}
+	}
+
+	public String preOrder(){
+		return preOrder(root);
+	}
+	private String preOrder(Node root){
+		if (root == null){
+			return "";
+		} else {
+			return root.data + preOrder(root.left) + preOrder(root.right); 
+		}
+	}
+
+	public String postOrder(){
+		return postOrder(root);
+	}
+	private String postOrder(Node root){
+		if(root == null){
+			return "";
+		} else {
+			return postOrder(root.left) + postOrder(root.right) + root.data;
+		}
+	}
+
+	//for test purpose:
+	public Vector<Node> getNodes(){
+		Vector<Node> nodes = new Vector<Node>();
+		Stack<Node> stack = new Stack<Node>();
+		if(root!=null){
+			stack.push(root);
+		}
+		while(!stack.isEmpty()){
+			nodes.add(stack.pop());
+			if(nodes.lastElement().left != null){
+				stack.push(nodes.lastElement().left);
+			}
+			if(nodes.lastElement().right != null){
+				stack.push(nodes.lastElement().right);
+			}
+		}
+		return nodes;
+	}
+	/*****************************************************************/
+	//4.5
+
+	public boolean isBST(){
+		return isBST(root);
+	}
+	
+	private boolean isBST(Node subRoot){
+		boolean result = true;
+		if (subRoot == null) {
+			return true;
+		} 
+		if (subRoot.left != null){
+			result = result && (subRoot.left.data < subRoot.data) &&
+					isBST(subRoot.left);
+		} 
+		if (subRoot.right !=null){
+			result = result && (subRoot.right.data > subRoot.data) &&
+					isBST(subRoot.right);
+		}
+		return result;
+	}
+	
+	// 4.7
+
+	public Node FirstCommonAncestor(Node n1, Node n2){
+		return new Node(1);
+	}
+
+	// 4.8
+
+	public boolean isSubtree(BT otherBT){
+		return false;
+	}
+
+	//4.9  print all paths
+
+	public void findPaths(int Value){
+
+	}
 }
