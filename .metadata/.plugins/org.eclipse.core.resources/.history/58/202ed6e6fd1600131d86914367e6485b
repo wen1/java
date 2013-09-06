@@ -1,0 +1,55 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class BTTest {
+	BT btree;
+	@Before
+	public void setUp()  {
+		BT.Node[] nodes = new BT.Node[7]; 
+		for (int i = 0; i < 7; i++){
+			nodes[i] = new BT.Node(i);
+		}
+		btree = new BT(nodes[0]);
+		/*
+		 * create a Binary Tree like below:
+		 * 				0
+		 * 		1				2
+		 * 	3		4		5		6
+		 */
+		for (int i = 0; i < 3; i++){
+			btree.addToLeft(nodes[i], nodes[i*2+1]);
+			btree.addToRight(nodes[i], nodes[i*2+2]);
+		}
+		
+	}
+
+	@Test
+	public void testSetUp() {
+		System.out.println(btree.inOrder());
+	}
+
+
+	@Test
+	public void testIsBST() {
+		
+	}
+
+	@Test
+	public void testFirstCommonAncestor() {
+		
+	}
+
+	@Test
+	public void testIsSubtree() {
+		
+	}
+
+	@Test
+	public void testFindPaths() {
+		
+	}
+
+}

@@ -1,0 +1,81 @@
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class BTTest {
+	BT btree;
+	BT bst;
+	@Before
+	public void setUp()  {
+		BT.Node[] nodes = new BT.Node[7]; 
+		for (int i = 0; i < 7; i++){
+			nodes[i] = new BT.Node(i);
+		}
+		btree = new BT(nodes[0]);
+		/*
+		 * create a Binary Tree like below:
+		 * 				0
+		 * 		1				2
+		 * 	3		4		5		6
+		 */
+		for (int i = 0; i < 3; i++){
+			btree.addToLeft(nodes[i], nodes[i*2+1]);
+			btree.addToRight(nodes[i], nodes[i*2+2]);
+		}
+		
+		/*
+		 * creat a binary search tree like below:
+		 * 				4
+		 * 		1				6
+		 * 	0		3		5		9
+		 * 
+		 */
+		BT.Node[] bstNodes = new BT.Node[7];
+		int[] datas = {4,1,6,0,3,5,9};
+		for (int i = 0; i < 7; i++){
+			bstNodes[i] = new BT.Node(datas[i]);
+		}
+		for (int i = 0; i < 3; i++){
+			bst.addToLeft(nodes[i], nodes[i*2+1]);
+			bst.addToRight(nodes[i], nodes[i*2+2]);
+		}
+		
+ 	}
+	
+	@After
+	public void clean(){
+		btree = null;
+	}
+
+	@Test
+	public void testSetUp() {
+		assertEquals("3140526",btree.inOrder());
+		assertEquals("0134256",btree.preOrder());
+	}
+
+
+	@Test
+	public void testIsBST() {
+		assertEquals(false, btree.isBST());
+		assertEquals(true, bst.isBST());
+	}
+
+	@Test
+	public void testFirstCommonAncestor() {
+		
+	}
+
+	@Test
+	public void testIsSubtree() {
+		
+	}
+
+	@Test
+	public void testFindPaths() {
+		
+	}
+
+}

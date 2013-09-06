@@ -34,9 +34,12 @@ public class BSTTest {
 		assertEquals(expected, bst.preOrder());
 	}
 	
-	public void testABC(){
-		system.out.println("aaa");
+	@Test
+	public void testIsBalanced(){
+		assertEquals(true,bst.isBalanced());
+		// add more nodes make bst not balanced 
+		bst.insert(10);
+		bst.insert(11);
+		assertEquals(false,bst.isBalanced());
 	}
-	
-	@add
 }

@@ -1,0 +1,35 @@
+
+public class BT {
+	public static class Node{
+		int data;
+		Node left, right;
+		Node(int _data){
+			data = _data;
+			left = right = null;
+		}
+	}
+	
+	//4.5
+
+	public boolean isBST(){
+		return false;
+	}
+
+	// 4.7
+
+	public Node FirstCommonAncestor(Node n1, Node n2){
+		return new Node(1);
+	}
+
+	// 4.8
+
+	public boolean isSubtree(BT otherBT){
+		return false;
+	}
+
+	//4.9  print all paths
+
+	public void findPaths(int Value){
+
+	}
+}

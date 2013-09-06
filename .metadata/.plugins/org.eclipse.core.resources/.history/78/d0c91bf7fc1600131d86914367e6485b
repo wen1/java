@@ -1,0 +1,43 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class BTTest {
+
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	@Test
+	public void testAddToLeft() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAddToRight() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsBST() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFirstCommonAncestor() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsSubtree() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFindPaths() {
+		fail("Not yet implemented");
+	}
+
+}
